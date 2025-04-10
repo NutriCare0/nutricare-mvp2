@@ -6,7 +6,6 @@ import Link from "next/link";
 export default function Page4() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen p-8 bg-gradient-to-b from-gray-100 to-white text-gray-900 relative overflow-hidden">
-      {/* Decorative Animated Background */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.05 }}
@@ -14,7 +13,6 @@ export default function Page4() {
         className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-blue-200 via-transparent to-transparent pointer-events-none"
       />
 
-      {/* Subtle Animated Glow */}
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 0.07, scale: 1 }}
@@ -76,9 +74,9 @@ export default function Page4() {
           transition={{ delay: 1 }}
           className="bg-white p-6 rounded-3xl shadow-xl hover:shadow-2xl transition hover:bg-purple-50"
         >
-          <h2 className="text-2xl font-semibold mb-2 text-purple-700">🌍 Who It&#39;s For</h2>
+          <h2 className="text-2xl font-semibold mb-2 text-purple-700">🌍 Who It&apos;s For</h2>
           <p className="text-gray-600 text-lg">
-            Whether you&#39;re an athlete, a busy professional, or managing a health condition — NutriCare is built to understand your pace, your needs, and evolve with you.
+            Whether you're an athlete, a busy professional, or managing a health condition — NutriCare is built to understand your pace, your needs, and evolve with you.
           </p>
         </motion.div>
       </motion.section>
