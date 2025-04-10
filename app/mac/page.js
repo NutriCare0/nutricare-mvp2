@@ -22,7 +22,6 @@ export default function Page4() {
         className="absolute top-1/3 left-1/4 w-96 h-96 bg-purple-400 rounded-full blur-3xl opacity-30 pointer-events-none"
       />
 
-      {/* Title */}
       <motion.h1
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
@@ -32,7 +31,6 @@ export default function Page4() {
         Discover NutriCare
       </motion.h1>
 
-      {/* Description */}
       <motion.p
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -42,7 +40,6 @@ export default function Page4() {
         NutriCare is an intelligent nutrition assistant powered by AI, designed to support every user regardless of their condition, lifestyle, or health goals.
       </motion.p>
 
-      {/* Sections */}
       <motion.section
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -86,7 +83,6 @@ export default function Page4() {
         </motion.div>
       </motion.section>
 
-      {/* CTA to Homepage */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -104,7 +100,6 @@ export default function Page4() {
         </Link>
       </motion.div>
 
-      {/* Footer */}
       <motion.footer
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
