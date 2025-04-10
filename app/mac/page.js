@@ -79,9 +79,9 @@ export default function Page4() {
           transition={{ delay: 1 }}
           className="bg-white p-6 rounded-3xl shadow-xl hover:shadow-2xl transition hover:bg-purple-50"
         >
-          <h2 className="text-2xl font-semibold mb-2 text-purple-700">🌍 Who It&apos;s For</h2>
+          <h2 className="text-2xl font-semibold mb-2 text-purple-700">🌍 Who It&#39;s For</h2>
           <p className="text-gray-600 text-lg">
-            Whether you&apos;re an athlete, a busy professional, or managing a health condition — NutriCare is built to understand your pace, your needs, and evolve with you.
+            Whether you&#39;re an athlete, a busy professional, or managing a health condition — NutriCare is built to understand your pace, your needs, and evolve with you.
           </p>
         </motion.div>
       </motion.section>
