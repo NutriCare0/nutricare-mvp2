@@ -67,7 +67,7 @@ export default function Page4() {
           transition={{ delay: 0.8 }}
           className="bg-white p-6 rounded-3xl shadow-xl hover:shadow-2xl transition hover:bg-purple-50"
         >
-          <h2 className="text-2xl font-semibold mb-2 text-purple-700">⚙️ Powered by AI & Health Data</h2>
+          <h2 className="text-2xl font-semibold mb-2 text-purple-700">⚙️ Powered by AI &amp; Health Data</h2>
           <p className="text-gray-600 text-lg">
             By connecting to Apple Health and other wellness APIs, NutriCare adapts your meals, hydration, and recommendations to fit your exact condition — chronic illness, recovery, or daily optimization.
           </p>
